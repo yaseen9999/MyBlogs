@@ -1,0 +1,24 @@
+.menuicon{
+    display:none;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    cursor: pointer;
+    gap:30px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    top: 30%; 
+    left: 40%;
+    
+}
+
+@media screen and  (max-width:555px){
+  
+   .menuicon{
+    display:block;
+   }
+}

@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/api/post": "pages/api/post.js",
+  "/api/popularposts": "pages/api/popularposts.js",
+  "/api/pagination": "pages/api/pagination.js",
+  "/api/updateviews": "pages/api/updateviews.js",
+  "/api/singlepage/[id]": "pages/api/singlepage/[id].js"
+}

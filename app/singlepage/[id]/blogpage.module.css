@@ -1,0 +1,138 @@
+.topsection{
+    display: flex;
+}
+.title2{ 
+    flex:0 1 auto;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.image{
+    height: 250px;
+}
+.namedate{
+    margin-top: 110px;
+}
+.bottomsection{
+    display: flex;
+    gap:20px;
+}
+.leftsection {
+    flex: 3;
+    overflow: auto; 
+    max-height: 350vh; 
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased; /* Include padding and border in the element's total width and height */
+  }
+  
+  /* Webkit-based browsers (Chrome, Safari) */
+  .leftsection::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .leftsection::-webkit-scrollbar-thumb {
+    background-color: lightgrey; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Rounded corners for the thumb */
+  }
+  
+  .leftsection::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+  
+  .leftsection::-webkit-scrollbar-track {
+    background: transparent; /* Background of the scrollbar track */
+  }
+  
+  .leftsection::-webkit-scrollbar-track-piece {
+    background: transparent; /* Background of the scrollbar track piece */
+  }
+  
+
+
+
+.leftsection > div > div {
+    word-wrap: break-word; /* Ensure content wraps within its container */
+    overflow-x: auto; /* Add horizontal scrolling if content overflows */
+}
+.description{
+ 
+   
+    font-size: 18px;
+    font-family:monospace;
+}
+.menu{
+   flex:1
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    margin-top: 30px;
+}
+.inputstyle{
+    height: 80px;
+    width: 650px;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+@media screen and  (max-width:1024px){
+   
+   
+}
+@media screen and  (max-width:768px){
+    .title2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .image{
+        height: 200px;
+        width:250px;
+    }
+    .description{
+ 
+   
+        font-size: 15px;
+        font-family:monospace;
+    }
+    .menu{
+        display: none;
+     }
+  
+}
+@media screen and  (max-width:425px){
+    .title2{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    .image{
+        height: 100px;
+        width:150px;
+    }
+    .topsection{
+        flex-direction: column;
+    }
+    .namedate{
+        margin-top: 2px;
+        font-size: 7px;
+    }
+    .description{
+ 
+        
+        font-size: 8px;
+       
+    }
+    
+     .leftsection{
+       display: flex;
+       min-width: 160px;
+    }
+    .inputstyle{
+        height: 30px;
+        width: 150px;
+    }
+  
+}

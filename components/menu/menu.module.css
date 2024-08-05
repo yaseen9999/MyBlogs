@@ -1,0 +1,180 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.subtitle{
+color: grey;
+}
+.title{
+font-size: 23px;
+font-weight: bold;
+}
+.content {
+    display: flex;
+   flex-wrap: wrap;
+
+   gap:0px
+    
+  }
+
+  .categoryItem1{
+   
+    padding: 12px;
+   background-color: rgb(214, 136, 210);
+    border-radius: 75px
+  
+  }
+  .categoryItem2 {
+  
+   
+   padding: 12px;
+   background-color: lightcoral;
+    border-radius: 75px
+  }
+  .categoryItem3{
+  
+   padding: 12px;
+   background-color: rgb(128, 240, 231);
+    border-radius: 75px
+  }
+  .categoryItem4{
+  
+   
+   padding: 12px;
+   background-color: rgb(72, 218, 121);
+    border-radius: 75px
+  }
+  .categoryItem5{
+  
+ 
+   padding: 12px;
+   background-color: rgb(226, 235, 105);
+    border-radius: 75px
+  }
+  .title{
+    font-size: 18px;
+}
+.content2 {
+    display: flex;
+    gap:10px;
+    margin-top: 30px;
+  
+}
+.content2:hover{
+ cursor: pointer;;
+}
+.image {
+  border-radius: 75%;
+  width: 80px;
+  height: 80px;
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+}
+.imagecontainer{
+  flex:1;
+}
+.textcontainer{
+    flex:3;
+}
+.discription{
+    margin-top: 3px;
+    font-size: 12px;
+}
+.datecategory{
+   
+ 
+    margin-top: 3px;
+    font-size: 15px;
+}
+.date{
+  font-size: 15px;
+}
+@media screen and  (max-width:1024px){    
+  .image {
+    border-radius: 75%;
+    width: 60px;
+    height: 60px;
+      
+  }
+  .date{
+    font-size: 10px;
+  }
+  .datecategory{
+   
+ 
+    margin-top: 3px;
+    font-size: 10px;
+}
+.categoryItem5{
+  
+ 
+  padding: 4px;
+ 
+ }
+ .categoryItem1{
+  
+ 
+  padding: 4px;
+ 
+ }
+ .categoryItem2{
+  
+ 
+  padding: 4px;
+ 
+ }
+ .categoryItem3{
+  
+ 
+  padding: 4px;
+ 
+ }
+ .categoryItem4{
+  
+ 
+  padding: 4px;
+ 
+ }
+ .subtitle{
+  color: grey;
+  font-size: 12px;
+  }
+  .title{
+  font-size: 15px;
+  }
+}
+.category3{
+  padding: 4px;
+  background-color: rgb(255, 174, 0);
+
+  border-radius: 45%;
+ width: 80px;
+
+}
+.discription3{
+  font-size: 10px;
+}
+.date3{
+  font-size: 10px;
+}
+@media screen and  (max-width:768px){    
+  .subtitle{
+    color: grey;
+    font-size: 8px;
+    }
+    .title{
+    font-size: 10px;
+    }
+    .image {
+     
+      width: 40px;
+      height: 40px;
+       
+    }
+    .imagecontainer{
+      flex:1;
+    }
+    .textcontainer{
+        flex:4;
+    }
+  }

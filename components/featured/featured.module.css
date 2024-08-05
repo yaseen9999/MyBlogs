@@ -1,0 +1,71 @@
+.container{
+    margin-top: 10px;
+}
+.content{
+    display:flex;
+    margin-top: 10px;
+  gap: 10px;
+}
+
+.Image {
+   
+    object-fit: cover; /* Ensure the image covers the container without stretching */
+  }
+.post{
+    flex:2;
+    margin-top: 80px;
+}
+.posttitle{
+font-size: 30px;
+}
+.postdescription{
+margin-top: 30px;
+font-size: 20px;
+}
+.title{
+    font-size: 30px;
+}
+@media screen and (max-width:1024px){
+    .posttitle{
+        font-size: 18px;
+        }
+        .postdescription{
+        
+        font-size: 15px;
+        }
+        .title{
+            font-size: 15px;
+        }
+}
+@media screen and (max-width:768px){
+  
+  .post{
+   
+    margin-top: 2px;
+}
+.postdescription{
+  margin-top: 10px;
+
+  }
+  .Image{
+    width:200px;
+    height:200px; 
+  }
+}
+@media screen and (max-width:425px){
+    .title{
+        font-size: 5px;
+    }
+    .posttitle{
+        font-size: 8px;
+    }
+    .postdescription{
+    margin-top: 0px;
+    font-size: 6px;
+    }
+    .content {
+        flex-direction: column; 
+      }
+     
+   
+  }
